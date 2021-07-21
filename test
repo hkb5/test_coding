@@ -1,0 +1,28 @@
+//main method
+void main() {
+  
+  //for loop
+  for(int i = 1; i <= 100; i++){
+    
+    /**if number is divided by both 3 and 5 and remainder is o,
+    if statement will be processed **/
+    if((i%3 == 0) && (i%5 == 0)){
+      print("Budvue should consider Harmeet for this position");
+    }
+    /** if number is divided by only 3 and remainder is 0; 
+     * below else statement will be processed **/
+    else if(i%3 == 0){
+      print("Bud");
+    }
+    /** if number is divided by only 5 and remainder is 0;
+     * below else if statement will be processed **/
+    else if (i%5 == 0){
+      print("Vue");
+    }
+    /** for the rest of the numbers, below else statement will be 
+     * processed and numbers will be printed out **/
+    else {
+      print(i);
+    }
+  } //end of for loop
+} //end of main method
